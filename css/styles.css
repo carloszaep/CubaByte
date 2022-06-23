@@ -1,0 +1,160 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* native selectors */
+
+h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 2rem;
+}
+
+/* bar */
+
+
+
+.navbar {
+  font-size: 1.5rem;
+  padding-bottom: 40px;
+  padding: 2% 12%;
+
+}
+
+#products {
+  padding: 5% 12%;
+}
+
+/* intro */
+
+#intro {  
+  padding: 5% 12%;
+  text-align: left;
+}
+
+.buysellbutton {
+  margin: 5%;
+}
+
+.img-iphone {
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+
+
+/* examples */
+
+#examples {
+  background-color: #40dfef;
+  padding: 0 12%;
+  text-align: center;
+}
+
+.example-heading {
+    color: white;
+}
+
+.lines {
+  display: none; /*   hr are only after meta query for mobil view, but had to display none hire first*/
+}
+
+/* example icon */
+
+.examples-icon:hover {
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* testimonials */
+
+#testimonials {
+  background-color: #40dfef;
+  color: #fff;
+  padding: 0 12%;
+  
+}
+
+.carousel-item {
+  padding: 5% 12%;
+}
+
+.testimonial-image {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonials-head {
+  margin-top: 5%;
+}
+
+.testimonials-places, .testimonial-text {
+  
+  color: #181b1b;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.line-testimonials {
+  border: none;
+  border-top: 19px double #333;
+  color: #333;
+  
+}
+
+
+
+
+
+/* footer */
+
+#footer {
+  padding: 0.1rem;
+  
+}
+
+.footer-icon {
+    margin: 2%;
+}
+
+.footer-icon:hover {
+    color: blue;    
+}
+
+/* media query */
+
+@media (max-width: 991px) {
+  #intro {
+    text-align: center;
+  }
+  .img-iphone {
+    position: static;
+    transform: rotate(0);
+    width: 300px;
+  }
+  .lines {
+    display: inline-block;
+    background-color: #40dfef;
+    border-style: dotted none none;
+    border-color: #181b1b;
+    border-width: 8px;
+    width: 0.1%;
+    margin: auto;
+    padding: 5% 10%;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+}

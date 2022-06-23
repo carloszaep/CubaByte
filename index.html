@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <!-- link to free icons -->    
+    <script src="https://kit.fontawesome.com/e33e5c2a88.js" crossorigin="anonymous"></script>
+
+    <title>CubaByte</title>
+</head>
+<body>
+
+<div class="bar">
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="img\LogoMakr-7PItnX.png" alt="cubabyte-logo" width="80"><a href="index.html" class="navbar-brand"></a></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span>Menu</span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+            
+            
+            <li class="nav-item"> 
+                <a class="nav-link" href="products.html">Productos</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Localizaciones
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="nav-item dropdown"><a class="dropdown-item" href="#">Holguin</a></li>                 
+                    <li><a class="dropdown-item" href="#">Santiago de Cuba</a></li>
+                    <li><a class="dropdown-item" href="#">La Havana</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="Localizaciones.html">Toda Cuba</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ayuda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Mi Cuenta <i class="fa-solid fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="#">Carrito <i class="fa-solid fa-cart-shopping"></i></a>
+            </li>                   
+        </ul>
+        
+        <form class="d-flex">
+
+            <input class="form-control me-2 buscar-bar" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success btn-info" type="submit">Buscar</button>
+        </form>
+    </div>
+    </div>
+  </nav> 
+</div>
+  <section id="intro" class="withe-section">         
+
+    
+      <div class="first-row">
+      
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Compra y Vende productos, servicios y mucho mas para cuba y desde cuba.</h1>
+            <button type="button" class="btn  btn-dark btn-lg donwload-buttton buysellbutton"><i class="fa-solid fa-bag-shopping"></i> Comprar</button>
+            <button type="button" class="btn btn-light btn-lg donwload-buttton buysellbutton"><i class="fa-solid fa-sack-dollar"></i> Vender</button>
+          </div>
+            
+          <div class="col-lg-6">
+            <img class="img-iphone" src="img/iphone.png" alt="iphone">
+          </div>        
+              
+            
+        </div>        
+      </div>
+      
+    
+
+  </section>
+
+  <section id="examples" class="color-section">
+    <hr class="line-testimonials">
+    <div class="row">
+        <div class="col-lg-4">        
+            <i class="fa-solid fa-sack-dollar fa-4x examples-icon"></i>
+          <h2 class="example-heading">Vende facil tus productos</h2>
+          <p>Solo has una cuenta y empieza a subir lo que deces vender</p>
+        </div>
+        <hr class="lines">
+          
+        <div class="col-lg-4">
+            <i class="fa-solid fa-bag-shopping fa-4x examples-icon"></i>
+            <h2 class="example-heading">Compras en Cuba</h2>
+            <p>Si estas en la isla pudes hacer que tus familiares te recarguen tu cuenta con creditos y empesar a comprar</p>
+          
+        </div>     
+        <hr class="lines"> 
+        
+        <div class="col-lg-4">
+            <i class="fa-solid fa-truck-fast fa-4x examples-icon"></i>
+            <h2 class="example-heading">Envios y pagos</h2>
+            <p>El vendedor es responsable de hacer llegar la venta al comprador pude ser por entregas o recogidas locales, hasta que no se haga entrega del producto el fondo no se le deposita al vendedor</p>
+
+        </div>
+          
+      </div>      
+      <hr class="line-testimonials">
+  </section>
+
+
+  <section id="testimonials" class="withe-section">  
+    <hr class="line-testimonials">
+    <h2 class="testimonials-head">Testimonios reales</h2>
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Unos de los mejores webside para cuba, puedes hacer que tu familiar en cuba compre lo que dece.</h2>
+          <img class="testimonial-image" src="data:image/jpeg;base64,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" alt="dog-profile">
+          <em class="testimonials-places">Miami</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Me encanto compre mi ropa por CubaByte depues que mis familiares en Dallas me recargaran y el vendedor me la trajo hasta mi casa.</h2>
+          <img class="testimonial-image" src="data:image/jpeg;base64,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" alt="lady-profile">
+          <em class="testimonials-places">Holguin</em> 
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Me encanto el sitio web ahora si se puede decir que tenemos un Amazon en cuba je.</h2>
+          <img class="testimonial-image" src="data:image/jpeg;base64,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" alt="lady-profile">
+          <em class="testimonials-places">La Havana</em> 
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev carusel-botones" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next carusel-botones" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr class="line-testimonials">
+  </section>
+
+  <section id="footer" class="color-section">
+    <i class="fa-brands fa-twitter footer-icon fa-2x"></i>
+    <i class="fa-brands fa-facebook footer-icon fa-2x"></i>
+    <i class="fa-brands fa-instagram footer-icon fa-2x"></i>
+    <i class="fa-solid fa-envelope footer-icon fa-2x"></i>
+    <p>© Copyright CubaByte</p>
+  </section>
+
+  
+
+    
+</body>
+</html>

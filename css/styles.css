@@ -119,6 +119,11 @@ p {
 }
 
 
+/* only for carrito web */
+
+#card-order {
+  padding: 1% 2%;
+}
 
 
 

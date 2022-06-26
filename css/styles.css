@@ -151,9 +151,7 @@ p {
   text-align: center;
 } 
 
-.col-for-button {
-  margin-top: 15%;
-}
+
 
 /* footer */
 
@@ -195,5 +193,9 @@ p {
   }
   h1 {
     font-size: 1.8rem;
+  }
+  /* accaount */
+  .col-for-button {
+    margin-top: 15%;
   }
 }

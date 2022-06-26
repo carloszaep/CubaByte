@@ -1,7 +1,14 @@
-body {  
-  
+:root {
+  --pading-for-web: 5% 12%;
+  --backgraund-color: #40dfef;
+
+}
+
+
+
+body {    
   font-family: "Montserrat", sans-serif;
-  text-align: center;
+  
 }
 
 body.no-index {
@@ -50,7 +57,7 @@ p {
 /* intro */
 
 #intro {  
-  padding: 5% 12%;
+  padding: var(--pading-for-web);
   text-align: left;
 }
 
@@ -68,7 +75,7 @@ p {
 /* examples */
 
 #examples {
-  background-color: #40dfef;
+  background-color: var(--backgraund-color);
   padding: 0 12%;
   text-align: center;
 }
@@ -91,9 +98,10 @@ p {
 /* testimonials */
 
 #testimonials {
-  background-color: #40dfef;
+  background-color: var(--backgraund-color);
   color: #fff;
   padding: 0 12%;
+  text-align: center;
   
 }
 
@@ -129,6 +137,7 @@ p {
 
 #card-order {
   padding: 1% 2%;
+  text-align: center;
   
 }
 /* only for account */
@@ -139,6 +148,7 @@ p {
 
 #cuenta {
   padding: 1% 3%;
+  text-align: center;
 } 
 
 .col-for-button {
@@ -150,6 +160,7 @@ p {
 #footer {
   padding: 0.1rem;
   background-color: #F9F6F6;
+  text-align: center;
   
 }
 

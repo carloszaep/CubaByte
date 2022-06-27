@@ -50,6 +50,14 @@ p {
 
 }
 
+/* productos wer */
+
+.filters {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 #products {
   padding: 5% 12%;
 }

@@ -66,7 +66,7 @@ p {
 
 #intro {  
   padding: var(--pading-for-web);
-  text-align: left;
+  text-align: center;
 }
 
 .buysellbutton {
